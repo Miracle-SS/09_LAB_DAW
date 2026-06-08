@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enviar Correo</title>
+</head>
+<body>
+<h1>Enviar Correo</h1>
+<form method="POST">
+    {% csrf_token %}
+    <label>Asunto</label>
+    <br>
+    <input type="text" name="subject">
+    <br><br>
+    <label>Mensaje</label>
+    <br>
+    <textarea name="message"></textarea>
+    <br><br>
+    <button type="submit">
+        Enviar
+    </button>
+</form>
+</body>
+</html>
