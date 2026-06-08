@@ -20,7 +20,7 @@ Implementación de:
 ## Instalación
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone <https://github.com/Miracle-SS/09_LAB_DAW.git>
 cd laboratorio09
 python -m venv env
 source env/Scripts/activate
