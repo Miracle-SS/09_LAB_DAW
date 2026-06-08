@@ -17,6 +17,9 @@ Implementación de:
 - xhtml2pdf
 - Git y GitHub
 
+## Video en Youtube
+Enlace: https://youtu.be/sxjz1oBlgEs
+
 ## Instalación
 
 ```bash
@@ -27,6 +30,3 @@ source env/Scripts/activate
 pip install django xhtml2pdf
 python manage.py migrate
 python manage.py runserver
-
-## Video en Youtube
-Enlace: https://youtu.be/sxjz1oBlgEs
