@@ -27,3 +27,6 @@ source env/Scripts/activate
 pip install django xhtml2pdf
 python manage.py migrate
 python manage.py runserver
+
+## Video en Youtube
+Enlace: https://youtu.be/sxjz1oBlgEs
